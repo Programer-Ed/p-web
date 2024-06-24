@@ -125,7 +125,7 @@ li{
   width: 100%;
 }
 img{
-  padding-top: 60px;
+  padding-top: 40px;
 }
 .ali{
   float: none;
@@ -155,9 +155,6 @@ img{
     justify-content: space-around;
     width: 100%;
   }
-  img{
-    padding-top: 60px;
-  }
   .ali{
     float: left;
     width: 30%;
@@ -172,7 +169,7 @@ img{
     width: 100%;
   }
   img{
-    padding-top: 60px;
+    padding-top: 0px;
   }
   .ali{
     float: left;
@@ -186,9 +183,6 @@ img{
     display: block;
     justify-content: space-around;
     width: 100%;
-  }
-  img{
-    padding-top: 60px;
   }
   .ali{
     float: left;
