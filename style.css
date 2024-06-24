@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 body{
     background-color: rgb(47, 120, 168);
 }
@@ -14,16 +17,19 @@ h2{
     background-color: rgb(47, 120, 168);
     color: rgb(239, 239, 247)
 }   
+h2{
+  margin-top: 10px;
+}
 .back{
     background-color: rgb(47, 120, 168);
 }
 p{
     color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 img{
     width: 100%;
-    margin-right: 0%;
-    margin-right: 0%;
 }
 li{
     display: inline;
@@ -108,28 +114,85 @@ li{
   input[type=button]{
     cursor: pointer;
   }
-  /* Extra small devices (phones, 600px and down) */
+  .img-info{
+    width:100%;
+  }
+/*extra small devices(phones,600px*/
 @media only screen and (max-width: 600px) {
-  .example {background: rgb(47, 120, 168);}
+.nav-links{
+  display: block;
+  justify-content: space-around;
+  width: 100%;
 }
-
+img{
+  padding-top: 60px;
+}
+.ali{
+  float: none;
+  width: 30%;
+}
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .example {background: rgb(47, 120, 168);}
+  .nav-links{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+  img{
+    padding-top: 60px;
+  }
+  .ali{
+    float: none;
+    width: 30%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .example {background: rgb(47, 120, 168);}
+  .nav-links{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+  img{
+    padding-top: 60px;
+  }
+  .ali{
+    float: left;
+    width: 30%;
+  }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .example {background: rgb(47, 120, 168);}
+  .nav-links{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+  img{
+    padding-top: 60px;
+  }
+  .ali{
+    float: left;
+    width: 30%;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .example {background: rgb(47, 120, 168);}
+  .nav-links{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+  img{
+    padding-top: 60px;
+  }
+  .ali{
+    float: left;
+    width: 30%;
+  }
 }
 
