@@ -1,11 +1,13 @@
 body{
     background-color: rgb(47, 120, 168);
+
 }
 h1{
     font-size: large;
     color: rgb(218, 218, 235);
     padding: 1px;
     font-weight: bold;
+    margin-right: 0%;
 }
 h2{
     text-align: center;
@@ -21,6 +23,8 @@ p{
 }
 img{
     width: 100%;
+    margin-right: 0%;
+    margin-right: 0%;
 }
 li{
     display: inline;
@@ -79,4 +83,31 @@ li{
     background-color: teal;
   
     font-family: "Montserrat", sans-serif;
-  }    
+  }   
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  #icons{
+    width: 30px;
+    margin: 0;
+  }
+  .ali{
+    float: left;
+    width: 30%;
+  }  
+  #up{
+    border-top: whitesmoke;
+  }
+  form{
+    font-weight: bold;
+  }
+  #inf{
+    font-weight: bold;
+  }
+  input[type=button]{
+    cursor: pointer;
+  }
+  
+
